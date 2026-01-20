@@ -1,6 +1,4 @@
-
-setwd("~/Delaware/Professional Development/Technical Skills Courses/R")
-#cd("~/Delaware/Professional Development/Technical Skills Courses/R")
+# getwd()
 
 library(tidyverse)
 library(readr)
@@ -96,4 +94,5 @@ names(data_structure_list) <- c("Dataframes", "Matrices", "Vectors")
 
 covid_analysis_list <- list(question, answer, data_structure_list)
 print(covid_analysis_list[[2]])
+
 
